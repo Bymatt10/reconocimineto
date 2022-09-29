@@ -2,7 +2,7 @@ import math
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-movies_df = pd.read_csv('movies.csv')
+movies_df = pd.read_csv('product.csv')
 ratings_df = pd.read_csv('ratings.csv')
 
 movies_df = movies_df.drop('category',1)
